@@ -1,0 +1,87 @@
+*{
+    
+  box-sizing: border-box; 
+
+}
+
+body{
+    
+    background-image: url(graficos/carretera2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    width: 1560px;
+    background-size:100% 100%;
+    
+}
+h2{
+    background-color: darkgray;
+    background-size:100%;
+    text-align: center;
+    width: 2000px;  
+}
+.navegacion{
+    
+  width: 2000px;
+  margin: 10px auto;
+  background: #353535;
+  background-size:100%; 
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.navegacion ul{
+    list-style: none;
+    
+}
+.menu > li {
+    display: inline-block;
+    position: relative;
+    
+}
+.menu > li > a{
+     display:block;
+     padding: 5px 20px;
+     color: #353535;
+     font-family:  "Homer Simpson UI";
+     text-decoration: none;
+    
+}
+.menu  li a:hover{
+    color: #353535;
+    transition: all .2s;
+    
+}
+.submenu{
+    position: absolute;
+    background: #353535;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    padding: 12px ;
+    
+}
+.submenu li a{
+    display:block;
+    padding: 7px ;
+    color:#353535;
+    font-family: "Homer Simpson UI";
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+img:hover{
+   transform: skew(10deg, 5deg);
+        
+}
+img{
+    transition: all 0.5s ease;
+    
+}
+
+
